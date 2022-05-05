@@ -1260,8 +1260,8 @@ body.no-scroll {
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 63px 24px;
-  font-size: 18px;
+  padding: 15px;
+  font-size: 15px;
   line-height: 1.55;
   letter-spacing: 0.03em;
   color: #ffffff;
@@ -1269,6 +1269,13 @@ body.no-scroll {
   transform: translateY(100%);
   transition: transform 250ms ease;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 480px) {
+  .product-description {
+    padding: 63px 24px;
+    font-size: 18px;
+  }
 }
 
 .portfolio-title {
